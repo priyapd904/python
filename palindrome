@@ -1,6 +1,13 @@
-my_str=int(input("enter the character")
-rev_str=reverse (my_str)
-if(my _str==rev_str):
-print("it is a palindrome")
-else
-print("it is not a palindrome")
+def isPalindrome(s): 
+    rev = ''.join(reversed(s))  
+    if (s == rev): 
+        return True
+    return False
+s = input("E
+ans = isPalindrome(s) 
+  
+if (ans): 
+    print("Yes") 
+else: 
+    print("No")
+
